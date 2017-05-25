@@ -12,14 +12,14 @@ initscr();
 curs_set(0);
 
 mvaddstr(15, 4, "Hello World!");
-nanosleep(&intervallo, NULL);
 refresh();
+nanosleep(&intervallo, NULL);
 mvaddstr(10, 20, "How are you?");
-nanosleep(&intervallo, NULL);
 refresh();
+nanosleep(&intervallo, NULL);
 mvaddstr(5, 4, "I'm Ok");
-nanosleep(&intervallo, NULL);
 refresh();
+nanosleep(&intervallo, NULL);
 
 getch();
 endwin();
